@@ -1,0 +1,85 @@
+/* Mobile */
+@media (max-width: 576px) {
+  /* Styles for extra small devices */
+  #lg_menu {
+    display: none;
+  }
+  #header {
+    padding: 0px 10px !important;
+  }
+  #header_logo{
+    width: 120px;
+  }
+}
+
+/* Small devices */
+@media (min-width: 576px) and (max-width: 768px) {
+  /* Styles for small devices */
+  #lg_menu {
+    display: none;
+  }
+  #header {
+    padding: 0px 10px !important;
+  }
+  #header_logo{
+    width: 120px;
+  }
+}
+
+/* Medium devices */
+@media (min-width: 768px) and (max-width: 992px) {
+  /* Styles for medium devices */
+  #lg_menu {
+    display: none;
+  }
+  #header_logo{
+    width: 120px;
+  }
+}
+
+
+/* ---------------------------------------------------------------------------------------------------------- */
+
+
+/* Large devices */
+@media (min-width: 992px) and (max-width: 1200px) {
+  /* Styles for large devices */
+  #sm_menu {
+    display: none;
+  }
+  #header{
+    height: 200px;
+  }
+  #header_logo{
+    width: 120px;
+  }
+
+}
+
+/* Extra large devices  my laptop*/ 
+@media (min-width: 1200px) {
+  /* Styles for extra large devices */
+  #sm_menu {
+    display: none;
+  }
+  #header{
+    height: 400px;
+  }
+  #header_logo{
+    width: 150px;
+  }
+}
+
+/* XXL devices */
+@media (min-width: 1600px) {
+  /* Styles for XXL devices */
+  #sm_menu {
+    display: none;
+  }
+  #header{
+    height: 30%;
+  }
+  #header_logo{
+    width: 200px;
+  }
+}
