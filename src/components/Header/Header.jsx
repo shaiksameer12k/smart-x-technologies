@@ -87,7 +87,7 @@ const Header = () => {
               className={
                 pathName.includes("notification")
                   ? "w-9 h-9 bg-customActiveBgColor rounded-full flex justify-center items-center"
-                  : ""
+                  : "flex justify-center items-center"
               }
             >
               <Badge color="orange" count={1} size="small">
