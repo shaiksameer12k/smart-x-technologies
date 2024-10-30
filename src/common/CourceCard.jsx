@@ -1,12 +1,12 @@
 import React from "react";
 import DynamicIcon from "./IconComponent";
 
-const CourseCard = () => (
+const CourseCard = ({imgLink}) => (
   <div className="shadow-lg bg-white rounded-lg mt-8 ">
     <div className="relative">
       <a href="course-single.html">
         <img
-          src="https://raistheme.com/html/gostudy/gostudy/assets/images/courses/course-1.jpg"
+          src={imgLink}
           alt="Courses"
           className="w-full h-auto rounded-tr-md rounded-tl-md"
         />

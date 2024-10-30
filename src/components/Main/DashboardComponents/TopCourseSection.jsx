@@ -11,16 +11,16 @@ const TopCourseSection = () => {
       <div className="py-10 max-sm:py-2">
         <Row className="gap-4 max-sm:gap-0 justify-center">
           <Col sm={24} md={6} lg={5}>
-            <CourceCard />
+            <CourceCard imgLink="https://raistheme.com/html/gostudy/gostudy/assets/images/courses/course-1.jpg" />
           </Col>
           <Col sm={24} md={6} lg={5}>
-            <CourceCard />
+            <CourceCard imgLink="https://raistheme.com/html/gostudy/gostudy/assets/images/courses/course-2.jpg" />
           </Col>
           <Col sm={24} md={6} lg={5}>
-            <CourceCard />
+            <CourceCard imgLink="https://raistheme.com/html/gostudy/gostudy/assets/images/courses/course-3.jpg" />
           </Col>
           <Col sm={24} md={6} lg={5}>
-            <CourceCard />
+            <CourceCard imgLink="https://raistheme.com/html/gostudy/gostudy/assets/images/courses/course-4.jpg" />
           </Col>
         </Row>
       </div>
