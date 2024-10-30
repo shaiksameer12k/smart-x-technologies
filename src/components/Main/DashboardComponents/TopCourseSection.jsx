@@ -14,13 +14,13 @@ const TopCourseSection = () => {
             <CourceCard imgLink="https://raistheme.com/html/gostudy/gostudy/assets/images/courses/course-1.jpg" />
           </Col>
           <Col sm={24} md={6} lg={5}>
-            <CourceCard imgLink="https://raistheme.com/html/gostudy/gostudy/assets/images/courses/course-2.jpg" />
+            <CourceCard imgLink="https://raistheme.com/html/gostudy/gostudy/assets/images/courses/course-2.jpeg" />
           </Col>
           <Col sm={24} md={6} lg={5}>
             <CourceCard imgLink="https://raistheme.com/html/gostudy/gostudy/assets/images/courses/course-3.jpg" />
           </Col>
           <Col sm={24} md={6} lg={5}>
-            <CourceCard imgLink="https://raistheme.com/html/gostudy/gostudy/assets/images/courses/course-4.jpg" />
+            <CourceCard imgLink="https://raistheme.com/html/gostudy/gostudy/assets/images/courses/course-4.jpeg" />
           </Col>
         </Row>
       </div>
