@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 
 import Header from "../Header/Header";
 import Footer from "../Footer/Footer";
-import Router from "../../Router";
+import Router from "../../Router.jsx";
 import { FloatButton } from "antd";
 import DynamicIcon from "../../common/IconComponent";
 

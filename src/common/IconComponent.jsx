@@ -101,7 +101,7 @@ import {
 } from "react-icons/fa6";
 import { TbLanguageKatakana, TbReport } from "react-icons/tb";
 import { GrCertificate, GrServices } from "react-icons/gr";
-import { SiAwsorganizations, SiYourtraveldottv } from "react-icons/si";
+import { SiAwsorganizations, } from "react-icons/si";
 import { FaEye, FaEyeSlash } from "react-icons/fa";
 import { BiCommentAdd, BiTask } from "react-icons/bi";
 import { FcDataConfiguration, FcIphone } from "react-icons/fc";
