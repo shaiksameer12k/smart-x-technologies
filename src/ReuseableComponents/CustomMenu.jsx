@@ -37,7 +37,7 @@ const UserMenu = () => {
       <div className="flex items-center cursor-pointer">
         <DynamicIcon
           iconName="FaUser"
-          color="#ff1f59"
+          color="#ff1f59c4"
           size={22}
         />
       </div>

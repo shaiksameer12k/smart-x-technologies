@@ -7,8 +7,19 @@
   #header {
     padding: 0px 10px !important;
   }
-  #header_logo{
+  #header_logo {
     width: 120px;
+  }
+  #hero_section_title {
+    font-size: 32px !important;
+    line-height: 40px !important;
+  }
+  .shape-1 {
+    top: 34px;
+    width: 69% !important;
+  }
+  .shape-2 {
+    top: 240px !important;
   }
 }
 
@@ -21,8 +32,12 @@
   #header {
     padding: 0px 10px !important;
   }
-  #header_logo{
+  #header_logo {
     width: 120px;
+  }
+  #hero_section_title {
+    font-size: 32px;
+    line-height: 40px;
   }
 }
 
@@ -32,14 +47,12 @@
   #lg_menu {
     display: none;
   }
-  #header_logo{
+  #header_logo {
     width: 120px;
   }
 }
 
-
 /* ---------------------------------------------------------------------------------------------------------- */
-
 
 /* Large devices */
 @media (min-width: 992px) and (max-width: 1200px) {
@@ -47,25 +60,24 @@
   #sm_menu {
     display: none;
   }
-  #header{
+  #header {
     height: 200px;
   }
-  #header_logo{
+  #header_logo {
     width: 120px;
   }
-
 }
 
-/* Extra large devices  my laptop*/ 
+/* Extra large devices  my laptop*/
 @media (min-width: 1200px) {
   /* Styles for extra large devices */
   #sm_menu {
     display: none;
   }
-  #header{
+  #header {
     height: 400px;
   }
-  #header_logo{
+  #header_logo {
     width: 150px;
   }
 }
@@ -76,10 +88,10 @@
   #sm_menu {
     display: none;
   }
-  #header{
+  #header {
     height: 30%;
   }
-  #header_logo{
+  #header_logo {
     width: 200px;
   }
 }

@@ -4,7 +4,9 @@
 
 html,
 body {
-  height: 100%;
+  width: 100%;
+  /* height: 100%; */
+  overflow-x: hidden;
 }
 
 body {
@@ -14,6 +16,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  border: 2px solid red;
 }
 
 code {
@@ -21,6 +24,9 @@ code {
     monospace;
 }
 
+ul li span {
+  color: #000000;
+}
 .overflow-hidden {
   height: 100%;
 }
@@ -56,10 +62,17 @@ code {
 .ant-drawer-header-title {
   color: #ffffff !important;
 }
+
 .ant-menu-item {
   color: #ffffff !important;
   gap: 10px !important;
   font-weight: 600 !important;
+}
+.ant-menu-item > span {
+  color: #ffffff !important;
+}
+.ant-menu-item-selected > span {
+  color: #2c1944 !important;
 }
 
 .ant-menu-item:hover {
@@ -90,7 +103,8 @@ code {
   transition: all 0.3s ease-in-out;
 }
 
-.active-menu-item::after , .menu-item::after {
+.active-menu-item::after,
+.menu-item::after {
   content: "";
   background-color: #44226d;
   width: 100%;
@@ -106,7 +120,8 @@ code {
   transform: scaleX(1);
   transform-origin: left right;
 }
-.active-menu-item:hover::after,.menu-item:hover::after {
+.active-menu-item:hover::after,
+.menu-item:hover::after {
   transform: scaleX(1);
   transform-origin: left right;
 }
@@ -122,4 +137,21 @@ code {
 /* flotable buttn */
 .ant-float-btn-body {
   background: #ff1f59 !important;
+}
+
+/* ant input filed css */
+.ant-input-group-wrapper {
+  height: 40px;
+}
+.ant-input-wrapper {
+  height: 100%;
+}
+
+.custom-search .ant-input {
+  height: 100%;
+  font-size: 13px;
+}
+
+.custom-search .ant-btn {
+  font-size: 12px;
 }

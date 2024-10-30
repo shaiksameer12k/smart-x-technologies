@@ -27,7 +27,7 @@ const Header = () => {
       style={{
         position: "sticky",
         top: 0,
-        zIndex: 1,
+        zIndex: 3,
         width: "100%",
         display: "flex",
         alignItems: "center",
@@ -74,7 +74,7 @@ const Header = () => {
               <Badge color="orange" count={1} size="small">
                 <DynamicIcon
                   iconName="FaCartShopping"
-                  color="#ff1f59"
+                  color="#ff1f59c4"
                   onClickHandel={() => navegate("/cart")}
                   size={22}
                   iconTooltipTitle="Cart"
@@ -93,7 +93,7 @@ const Header = () => {
               <Badge color="orange" count={1} size="small">
                 <DynamicIcon
                   iconName="IoNotifications"
-                  color="#ff1f59"
+                  color="#ff1f59c4"
                   size={22}
                   onClickHandel={() => navegate("/notification")}
                   iconTooltipTitle="Notification"
@@ -105,7 +105,7 @@ const Header = () => {
             <div>
               {/* <DynamicIcon
                 iconName="FaUser"
-                color="#ff1f59"
+                color="#ff1f59c4"
                 size={20}
                 // onClickHandel={}
                 iconTooltipTitle="User Details"

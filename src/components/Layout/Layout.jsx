@@ -29,12 +29,9 @@ const Layout = () => {
   };
 
   return (
-    <div className="">
+    <div className="w-full min-h-screen">
       <Header />
-      <div
-        className="min-h-lvh border-red-600 border"
-        style={{ background: "#F5F3F6" }}
-      >
+      <div className="min-h-lvh">
         <Router />
       </div>
       <Footer />

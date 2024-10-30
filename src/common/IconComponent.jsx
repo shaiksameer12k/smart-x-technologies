@@ -18,6 +18,9 @@ import {
   FaRegCreditCard,
   FaFacebook,
   FaGithub,
+  FaCheckCircle,
+  FaRegStar,
+  FaRegBookmark,
 } from "react-icons/fa";
 import {
   IoIosPeople,
@@ -219,8 +222,8 @@ const iconComponents = {
   MdPhoneInTalk,
   FaCircleInfo,
   GrServices,
-  BsShop,
-};
+  BsShop,FaCheckCircle,FaRegStar
+,FaRegBookmark };
 
 const DynamicIcon = ({
   iconName,
